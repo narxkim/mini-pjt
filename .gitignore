@@ -223,6 +223,7 @@ runs/
 wandb/
 
 # Models
+*.pt
 models/
 *.pt
 *.pth
@@ -255,3 +256,6 @@ Thumbs.db
 # Exceptions for specific data folders to be tracked
 !notebooks/data/
 !notebooks/data/**
+
+
+*.csv
